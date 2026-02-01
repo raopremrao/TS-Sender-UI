@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "anvil": "anvil --load-state tsender-deploy.json",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.2.10",
     "@tanstack/react-query": "^5.90.20",
+    "@wagmi/core": "^3.3.1",
     "next": "16.1.4",
     "react": "19.2.3",
     "react-dom": "19.2.3",

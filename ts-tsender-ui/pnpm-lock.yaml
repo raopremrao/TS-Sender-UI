@@ -14,6 +14,9 @@ importers:
       '@tanstack/react-query':
         specifier: ^5.90.20
         version: 5.90.20(react@19.2.3)
+      '@wagmi/core':
+        specifier: ^3.3.1
+        version: 3.3.1(@tanstack/query-core@5.90.20)(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@19.2.3)(typescript@5.9.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.45.0(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6))
       next:
         specifier: 16.1.4
         version: 16.1.4(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
