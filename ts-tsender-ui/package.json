@@ -6,7 +6,8 @@
     "dev": "next dev",
     "anvil": "anvil --load-state tsender-deploy.json",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test:unit": "vitest"
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.2.10",
@@ -25,7 +26,10 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "jsdom": "^27.4.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^6.0.5",
+    "vitest": "^4.0.18"
   }
 }
